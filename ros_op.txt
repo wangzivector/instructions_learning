@@ -1,0 +1,34 @@
+1.创建meg
+创建msg不仅需要在package.xml和cmakelists添加各种东西，还需要在其中的链接中添加以下指令，已备找到msg.h
+add_dependencies(NARF_descriptor ${PROJECT_NAME}_generate_messages_cpp)
+
+
+2.输出topic 、msg 
+rostopic echo /name ---after bring up the node
+
+输出消息列表 rosmsg show --or not list
+
+catkin_make -DCATKIN_WHITELIST_PACKAGES="dynamic_tutorials"
+
+动态调参 -- dynamic_reconfigure 使用方法
+在cfg中添加.cfg文件
+修改xml文件添加dynamic_reconfigure
+修改cmakelist
+1.添加cakinmake pkg dynamic_reconfigure；
+2.添加generate_dynamic_reconfigure_options(cfg/cconfig.cfg)
+3.add_dependencies(kinect_pointcloud  ${PROJECT_NAME}_gencfg）
+4.在cpp服务端server中订阅、回调
+注：spinOnce()函数处理topic必备，放在主循环中！，spin()则为一直运行并监听topic
+5.运行rosrun rqt_reconfigure rqt_reconfigure
+
+
+快捷键
+Ctrl+Shift+K	删除行 Delete line
+Shift+Alt + ↓ / ↑	向上/向下复制行 Copy line up/down
+Ctrl+Enter	在下面插入行 Insert line below	
+Ctrl + I	选择当前行 Select current line
+End	转到行尾 Go to end of line
+Ctrl+Home	转到文件开头 Go to beginning of file
+ctrl+table      切换页面
+
+

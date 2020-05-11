@@ -1,0 +1,37 @@
+
+######  cmake常用指令含义：（摘）
+
+cmake_minimum_required(VERSION xxx) #cmake最小版本需求，新版本的cmake改了很多东西，提升了便利性，也可能让你自己挖坑了
+project(xxx) #设置此项目的名称
+add_executable(target target_source_codes) #生成可执行文件target ，后面填写的是生成此可执行文件所依赖的源文件列表。
+SET(var_name var_value)# 设置一个名字var_name 的变量，同时给此变量赋值为var_value
+MESSAGE("MSG") #类比echo 打印消息
+option(var_name "comment" var_value) #给变量var_name赋值为var_value，comment是此变量的注释，和SET 有类似的功效，用于给某变量设置默认值
+include_directories(xxx) #添加include路径，也就是 gcc -I xxx 的意思，或者vs ide中添加头文件包含目录
+add_subdirectory(xxx) #调用xxx子目录的CMakeLists.txt执行
+add_compile_options(xxx) #给编译器添加xxx参数，但是貌似没有什么用，我一般不这样添加参数，不直接
+link_directories(xxx) #给编译器添加库目录，也就是 gcc -L xxx 的意思，或者vs ide中添加库的包含目录
+add_library(lib_name SHARED or STATIC lib_source_code) #和add_executable类似，生成库文件，SHARED代表动态库，STATIC代表静态库， 最后一个参数代表此库的源文件列表，此指令只有三个参数
+target_link_libraries(target_name lib_name ...) #给目标添加依赖库，类似与gcc -l lib_name，此指令有两个用处，一个是给 可执行 target_name 添加库依赖，二是给 库 target_name 添加库依赖。
+
+
+
+
+######  -lpthread 添加库文件
+给target添加 库文件 的方法
+target_link_libraries(-lpthread) #注意lib命名，参考上部
+
+######   添加外部库到cmakelists.txt步骤
+1.find_package(realsense2 2.29.0)
+#该步骤是让cmake寻找到lib.cmake配置文件，不过好像默认会在一定的文件夹有一部分，有时可省略
+
+2.include_directories( include ${realsense2_INCLUDE_DIR}
+#包含目录（好像也可以省略）
+
+3.set(DEPENDENCIES realsense2)
+
+4.target_link_libraries(pcd_to_pointcloud ${DEPENDENCIES})
+#配合3 4 使用
+
+
+
