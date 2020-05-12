@@ -18,7 +18,10 @@
 3. Timeline
 * setup ros_qt basic env  		<done>
 * basic implement of PCL and RealSense	<done>
-* Vision of point cloud			<doing> -- based : QVTKwidget	PLC_qt_visualizer_tutorial   openGL    librviz
+* Vision of point cloud			<done> -- based : QVTKwidget(PLC_qt_visualizer_tutorial)    librviz(testRVIZ)	//openGL
+  thing about it, is it have to use ROS, also the rviz topic manage.
+  what's the step of QVTKwidget. this should be more convenient.
+
 * Class setup of pointcloud class
 * Param class
 * GUI Interface setup

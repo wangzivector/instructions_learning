@@ -88,3 +88,12 @@ install(TARGETS ros_gui RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 * import project in Qt creator
 
 * change the CMAKE_PREFIX_PATH add ;/opt/ros/kinetic
+
+* then modify the main_vindow.h about the RvizPlugin (add topic and modify the settings like rviz)
+
+* related link
+http://docs.ros.org/fuerte/api/librviz_tutorial/html/ 
+
+
+
+
