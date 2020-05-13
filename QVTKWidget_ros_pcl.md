@@ -8,7 +8,7 @@
 * https://pcl-tutorials.readthedocs.io/en/master/qt_colorize_cloud.html#user-interface-ui
 
 * 或者使用以下方式构建一个简单的自定义类：
-'''
+```
 
 ##myclass.h
 
@@ -59,10 +59,10 @@ this->iren =this->GetInteractor();
 ui.setupUi(this);
 this->ui.verticalLayout->addWidget(new myVTKWidget(this)); // note that you need to add a verticalLayout obj in ui.
 
-'''
+```
 
 ## CMakeLists.txt 添加以下库依赖
-'''
+```
 # 找到qt5中的widgets组件的关键步骤，使程序编译时能够找到qt5-widgets相关头文件和库函数。
 find_package(Qt5  REQUIRED COMPONENTS  Widgets)
 
@@ -92,7 +92,7 @@ include_directories( include  ${catkin_INCLUDE_DIRS} )
  add_executable(gui_node ${SOURCES} ${FORMS} )
  target_link_libraries(gui_node  Qt5::Widgets ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
-'''
+```
 
 * 按照最后的指令逻辑，可能有部分vtk的link库文件需要到pcl的PCL_LIBRARIES库 的3rdparty去找，否则会报vtk相关的错误。
 

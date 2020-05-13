@@ -22,7 +22,7 @@
   thing about it, is it have to use ROS, also the rviz topic manage.
   what's the step of QVTKwidget. this should be more convenient.
 
-* Class setup of pointcloud class
+* Class setup of pointcloud class       <doing>
 * Param class
 * GUI Interface setup
 * Makeup 

@@ -1,13 +1,13 @@
 * create package
-'''
+```
 catkin_create_pkg testRVIZ roscpp rospy rviz
-'''
+```
 
 * replace 4 folders
 include/ resourses/ src/ ui/
 
 * modify CMakeLists.txt
-'''
+```
 cmake_minimum_required(VERSION 2.8.3)
 project(test)
 
@@ -80,7 +80,7 @@ install(TARGETS ros_gui RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 ## Testing ##
 #############
 
-'''
+```
 
 * catkin_make ws
 ## for the error : deploying  problem.

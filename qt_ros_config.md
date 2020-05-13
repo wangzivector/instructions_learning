@@ -8,20 +8,20 @@
 < if you just need to add a package as the Qt project>
 (check the file ~/.bashrc has contained: source ~/ws/devel/setup.sh)
 * add the folllowing content after <project(chat)> in catkin_ws/src/chat/CMakeLists.txt:
-'''
+```
  file(GLOB_RECURSE EXTRA_FILES */*)
  add_custom_target(${PROJECT_NAME}_OTHER_FILES ALL WORKING_DIRECTORY ${PROJECT_SOURCE_DIR} SOURCES ${EXTRA_FILES})
-'''
+```
 * catkin_make the ws
 
 < if you just need to add a workspace as the Qt project>
 (check the two lines have been added in src/CMakeLists.txt in new version of ros)
 * but you need to link CMakeLists.txt by:
-'''
+```
  cd ~/catkin_ws/src
  sed -i '' CMakeLists.txt (In order to avoid driving QtCreator mad,we 
     must replace the symlink’ed CMakeLists.txt in catkin_ws/src with a physical copy of the actual stuff；)
-'''
+```
 * catkin_make the ws.
 
 

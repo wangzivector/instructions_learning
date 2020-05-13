@@ -9,15 +9,15 @@
 
 * create a ros workspace and rosnode instructions : https://blog.csdn.net/qq_17032807/article/details/80540290
   take care of the cmakelists.txt by adding addexcutive and linklibraries.
-'''
+```
  add_executable(${PROJECT_NAME}_node src/qt_ros_pcl_node.cpp)
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
  )
-'''
+```
 
 whole example:
-'''
+```
 cmake_minimum_required(VERSION 2.8.3)
 project(qt_ros_pcl)
 
@@ -45,7 +45,7 @@ include_directories(
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
  )
-'''
+```
 
 * make build
 
@@ -55,12 +55,12 @@ include_directories(
 # import a exist ros workspace 
  add new project --> same name and directory of existing project with catkinmake
  --> run this in ws: <unlock the file.>
-'''
+```
 sed -i '' CMakeLists.txt
-'''
+```
  
  --> add catkin_ws.workspace<for qtcreator only>
-'''
+```
 <?xml version="1.0"?>
 <Workspace>
     <Distribution name="kinetic"/>
@@ -72,7 +72,7 @@ sed -i '' CMakeLists.txt
     </WatchDirectories>
     <Directory>/opt/ros/kinetic/include</Directory>
 </Workspace>
-'''
+```
 
 
 
@@ -86,7 +86,7 @@ add /gui a new qtdesigner ui class with mainwindow template.
 add a new rosnode gui_node.cpp as the main() fun of ui.
 
 modify the gui_node.cpp with code:
-'''
+```
 #include <gui_node.h>
 #include "mainwindow.h"
 #include <QApplication>
@@ -100,10 +100,10 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
-'''
+```
 
 modify cmakelists.txt for qt cmake config:
-'''
+```
 cmake_minimum_required(VERSION 2.8.3)
 project(qt_ros_pcl)
 
@@ -142,7 +142,7 @@ include_directories( include  ${catkin_INCLUDE_DIRS} )
  target_link_libraries(${PROJECT_NAME}_node ${catkin_LIBRARIES} )
  target_link_libraries(gui_node  Qt5::Widgets )
 
-'''
+```
 
 build make
 
