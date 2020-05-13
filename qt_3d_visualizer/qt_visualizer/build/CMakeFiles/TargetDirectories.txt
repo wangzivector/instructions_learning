@@ -1,4 +1,4 @@
-/home/wang/software/qt_visualizer/build/CMakeFiles/edit_cache.dir
-/home/wang/software/qt_visualizer/build/CMakeFiles/rebuild_cache.dir
-/home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir
-/home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer_automoc.dir
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/edit_cache.dir
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/rebuild_cache.dir
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer_automoc.dir

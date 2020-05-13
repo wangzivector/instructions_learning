@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/wang/software/qt_visualizer/build/moc_pclviewer.cpp
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/moc_pclviewer.cpp
 ../src/pclviewer.h
-/home/wang/software/qt_visualizer/src/pclviewer.h
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/wang/software/qt_visualizer/build/pcl_visualizer_automoc.cpp
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/pcl_visualizer_automoc.cpp
 moc_pclviewer.cpp
-/home/wang/software/qt_visualizer/build/moc_pclviewer.cpp
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/moc_pclviewer.cpp
 
-/home/wang/software/qt_visualizer/src/main.cpp
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp
 pclviewer.h
-/home/wang/software/qt_visualizer/src/pclviewer.h
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.h
 QApplication
 -
 QMainWindow
 -
 
-/home/wang/software/qt_visualizer/src/pclviewer.cpp
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp
 pclviewer.h
-/home/wang/software/qt_visualizer/src/pclviewer.h
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.h
 ui_pclviewer.h
-/home/wang/software/qt_visualizer/src/ui_pclviewer.h
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/ui_pclviewer.h
 
-/home/wang/software/qt_visualizer/src/pclviewer.h
+/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.h
 iostream
 -
 QMainWindow

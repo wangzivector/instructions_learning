@@ -32,3 +32,38 @@
 * scalable<optional>
 * Exception handling
 
+5. cpp discription
+* qvtk
+   ├─ pointcloud vtkwidget
+   ├─ infoprint widget
+   ├─ param widget(multipage)
+   ├─ subview widget
+
+* qrealsense
+   ├─ rs receive/config
+   ├─ return frame
+
+* basic<ros>
+   ├─ publish final info in qt
+   ├─ receive and printout in receive node
+
+* qvtk
+   ├─ update pointcloud display
+   ├─ add pointcloud display
+   ├─ display config - colour visable size
+
+* qpcl
+   ├─ pcd file read/store
+   ├─ pointcloud preprocess
+   ├─ keeypoint extract
+   ├─ segmentation
+   ├─ normal estimation
+   ├─ feature compute
+   ├─ surface reconstruct
+   ├─ feature match
+   ├─ object detection
+
+
+
+
+

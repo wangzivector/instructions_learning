@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wang/software/qt_visualizer/src/main.cpp" "/home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/main.cpp.o"
-  "/home/wang/software/qt_visualizer/build/pcl_visualizer_automoc.cpp" "/home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o"
-  "/home/wang/software/qt_visualizer/src/pclviewer.cpp" "/home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
+  "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp" "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/main.cpp.o"
+  "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/pcl_visualizer_automoc.cpp" "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o"
+  "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp" "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "FLANN_STATIC"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   "qh_QHpointer"
   "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
@@ -36,7 +37,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
-  "/home/wang/software/qt_visualizer/src"
+  "/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src"
   "/usr/include/vtk-6.2"
   "/usr/include/x86_64-linux-gnu"
   "/usr/include/freetype2"

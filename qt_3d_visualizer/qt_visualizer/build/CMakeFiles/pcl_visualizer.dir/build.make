@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/software/qt_visualizer/src
+CMAKE_SOURCE_DIR = /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/software/qt_visualizer/build
+CMAKE_BINARY_DIR = /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pcl_visualizer.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/pcl_visualizer.dir/progress.make
 include CMakeFiles/pcl_visualizer.dir/flags.make
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
-CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/wang/software/qt_visualizer/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/software/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcl_visualizer.dir/main.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/main.cpp.o -c /home/wang/software/qt_visualizer/src/main.cpp
+CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcl_visualizer.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/main.cpp.o -c /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/main.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/software/qt_visualizer/src/main.cpp > CMakeFiles/pcl_visualizer.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp > CMakeFiles/pcl_visualizer.dir/main.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/main.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/software/qt_visualizer/src/main.cpp -o CMakeFiles/pcl_visualizer.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/main.cpp -o CMakeFiles/pcl_visualizer.dir/main.cpp.s
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/pcl_visualizer.dir/main.cpp.o.provides.build: CMakeFiles/pcl_visualiz
 
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
-CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/wang/software/qt_visualizer/src/pclviewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/software/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -c /home/wang/software/qt_visualizer/src/pclviewer.cpp
+CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -c /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/software/qt_visualizer/src/pclviewer.cpp > CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp > CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/software/qt_visualizer/src/pclviewer.cpp -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src/pclviewer.cpp -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.provides.build: CMakeFiles/pcl_vis
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o: pcl_visualizer_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/software/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o -c /home/wang/software/qt_visualizer/build/pcl_visualizer_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o -c /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/pcl_visualizer_automoc.cpp
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/software/qt_visualizer/build/pcl_visualizer_automoc.cpp > CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/pcl_visualizer_automoc.cpp > CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/software/qt_visualizer/build/pcl_visualizer_automoc.cpp -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/pcl_visualizer_automoc.cpp -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.s
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_automoc.cpp.o.requires:
 
@@ -414,7 +414,7 @@ pcl_visualizer: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so.6.2.0
 pcl_visualizer: /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0
 pcl_visualizer: /usr/lib/x86_64-linux-gnu/libz.so
 pcl_visualizer: CMakeFiles/pcl_visualizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/software/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pcl_visualizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pcl_visualizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_visualizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -433,6 +433,6 @@ CMakeFiles/pcl_visualizer.dir/clean:
 .PHONY : CMakeFiles/pcl_visualizer.dir/clean
 
 CMakeFiles/pcl_visualizer.dir/depend:
-	cd /home/wang/software/qt_visualizer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/software/qt_visualizer/src /home/wang/software/qt_visualizer/src /home/wang/software/qt_visualizer/build /home/wang/software/qt_visualizer/build /home/wang/software/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/src /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build /home/wang/桌面/instructions/qt_3d_visualizer/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcl_visualizer.dir/depend
 
